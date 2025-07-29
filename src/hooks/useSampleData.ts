@@ -122,6 +122,7 @@ const useSampleData = ({ setFormData, setCoverLetterData }: UseSampleDataProps) 
 		company: 'TechVision Systems',
 		location: 'San Francisco, CA',
 		position: 'Senior Full-Stack Developer',
+		subtitle: 'Senior Application Development Professional',
 		content: [
 			'I am writing to express my strong interest in the Senior Full-Stack Developer position at TechVision Systems. With over 8 years of experience in software engineering and a proven track record of delivering scalable solutions, I am excited about the opportunity to contribute to your innovative team and help drive TechVision\'s mission forward.',
 			'In my current role as Senior Software Engineer at TechCorp Solutions, I have successfully led the development of microservices architecture serving over 2 million daily users, while mentoring junior developers and implementing CI/CD pipelines that reduced deployment time by 60%. My expertise spans across modern frontend frameworks like React and Vue.js, backend technologies including Node.js and Python, and cloud platforms such as AWS. I am particularly drawn to TechVision\'s commitment to cutting-edge technology and believe my experience with cloud architecture and team leadership would be valuable assets to your organization.',

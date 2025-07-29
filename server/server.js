@@ -11,9 +11,9 @@ app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
 function formatDate(year, month) {
-    if (!year) return 'Present';
-    if (!month) return year;
-    return `${year} ${month}`;
+	if (!year) return 'Present';
+	if (!month) return year;
+	return `${year} ${month}`;
 }
 
 // Template for generating HTML from React component data
@@ -165,9 +165,7 @@ function generateCoverLetterHTML(formData, coverLetterData, styles) {
         <div class="resume-content">
             <div class="cover-letter-content">
                 <h1>${formData.name || 'Your Name Here'}</h1>
-                <div class="subtitle">
-                    Senior Application Development Professional
-                </div>
+                ${coverLetterData.subtitle ? `<div class="subtitle">${coverLetterData.subtitle}</div>` : ''}
 
                 <p>${currentDate}</p>
 

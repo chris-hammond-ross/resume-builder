@@ -51,6 +51,7 @@ export interface CoverLetterData {
 	company: string;
 	location: string;
 	position: string;
+	subtitle: string;
 	content: string[];
 }
 

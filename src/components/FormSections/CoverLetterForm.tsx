@@ -30,6 +30,19 @@ const CoverLetterForm: React.FC<CoverLetterFormProps> = ({
 }) => {
 	return (
 		<Box>
+			{/* Basic Information */}
+			<Card sx={{ mb: 3 }}>
+				<CardContent>
+					<Typography variant="h6" gutterBottom>Basic Information</Typography>
+					<TextField
+						fullWidth
+						label="Professional Subtitle"
+						value={coverLetterData.subtitle}
+						onChange={(e) => onUpdateCoverLetter('subtitle', e.target.value)}
+						placeholder="e.g., Senior Application Development Professional"
+					/>
+				</CardContent>
+			</Card>
 			{/* Recipient Information */}
 			<Card sx={{ mb: 3 }}>
 				<CardContent>

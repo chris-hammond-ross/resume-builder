@@ -15,7 +15,6 @@ import {
 	CircularProgress,
 	Snackbar,
 	Alert as MuiAlert,
-	Modal,
 	Dialog,
 	DialogTitle,
 	DialogContent,
@@ -169,6 +168,7 @@ const ResumeGenerator = () => {
 		company: '',
 		location: '',
 		position: '',
+		subtitle: '',
 		content: ['']
 	});
 
@@ -237,6 +237,7 @@ const ResumeGenerator = () => {
 			company: '',
 			location: '',
 			position: '',
+			subtitle: '',
 			content: ['']
 		});
 		setClearModalOpen(false);
